@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {assets} from '../assets/assets'
 
-const NavBar = () => {
+const Navbar = () => {
   const [showMobileMenu,setShowMobileMenu] = useState(false)
   useEffect(()=>{
     if(showMobileMenu){
@@ -44,4 +44,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default Navbar
